@@ -1,0 +1,121 @@
+body {
+	font: 14px/21px Arial;
+}
+a {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #999;
+}
+.site {
+	width:960px;
+	margin: auto;
+}
+.ust {
+	padding: 20px 0;
+	border-bottom: 2px solid #000;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.ust .logo {
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 15px;
+	float: left;
+	text-align: center;
+}
+.ust .menu {
+	border-radius: 15px;
+	float: right;
+	text-align: center;
+}
+.ust .menu ul {
+
+}
+.ust .menu ul li {
+	float:left;
+	margin-left: 25px;
+	list-style: none;
+}
+.ust .menu ul li:hover {
+
+}
+.ust .menu ul li a {
+	color: #666;
+	text-decoration: none;
+	padding: 5px;
+}
+.ust .menu ul li a:hover {
+	color: #fff;
+	background-color: #999;
+}
+.gov {
+	overflow: hidden;
+}
+.gov .sol {
+	float: left;
+	width: 640px;
+}
+.gov .sag {
+	float: right;
+	width: 260px;
+	padding: 20px;
+	background-color: rgba(80,80,80,0.8);
+	border-radius: 5px;
+}
+.foot {
+	padding: 20px 0;
+	border-top: 2px solid #000;
+	margin-top: 20px;
+}
+.texts {
+	
+}
+.texts .yazi{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px dashed #000;
+}
+.texts .yazi .detay {
+	margin-bottom: 10px;
+}
+.texts .yazi .detay span {
+	padding-right: 10px;
+}
+.texts .yazi .detay span.category {
+	padding-right: 0;
+	float: right;
+}
+.text .yazi h2.baslik {
+	margin-bottom: 10px;
+}
+.sayfalama {
+	overflow: hidden;
+}
+.sayfalama .sollink {
+	float:left;
+	background-color: rgba(120,120,120,0.9);
+	padding: 2px 5px;
+}
+.sayfalama .saglink {
+	float: right;
+	background-color: rgba(120,120,120,0.9);
+	padding: 3px, 5px;
+}
+.sag .component {
+	margin-bottom: 20px;
+}
+.sag .component h2.baslik {
+	color: rgba(204,204,255,0.5);
+	margin-bottom: 10px;
+}
+.sag .component h2.baslik:hover {
+	color: rgba(204,204,255,1);
+}
+.sag ul {
+
+}
+.sag ul li {
+	list-style: circle;
+	margin-left: 20px;
+}
