@@ -1,1 +1,528 @@
-hello
+<!doctype html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>lovelytema &#8211; Bir başka WordPress sitesi</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+body {
+	/*background-color: rgb(125,125,200);*/
+	background-color: rgb(230, 230, 230);
+}
+
+/* main */
+.site-main {
+	float: left;
+	width: 50%;
+	margin-bottom: 2%;
+}
+.entry {
+	margin-left: 25%;
+	margin-top: 5%;
+	border-radius: 5px;
+	padding: 2%;
+	/*background-color: rgb(230, 230, 230);*/
+	background-color: rgb(200, 200, 200);
+	box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px 0px;
+}
+.entry h1 {
+	text-align: center;
+}
+.entry h1 a {
+	color: rgb(125,125,200);
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
+	text-decoration: none;
+}
+.kis p {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* comments */
+.comments-area {
+	background-color: rgba(200,15,15,0.80);
+	border-radius: 5px;
+	width: 75%;
+	margin-left: 25%;
+}
+.comments-title {
+	text-align: center;
+	color: rgb(125,125,200);
+	text-shadow: 2px 2px 2px #000;
+}
+.comments-area ul {
+	margin: 5%;
+	padding: 0;
+	width: 75%;
+	list-style-type: none;
+	
+}
+
+.comments-area ul li {
+	margin-bottom: 5%;
+	padding: 12.5px;
+	background-color: rgb(200, 200, 200);
+	/*box-shadow:  rgba(0, 0, 0, 0.75) 5px 5px 10px  10px  inset;*/
+	box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px 0px;
+	border-radius: 5px;
+}
+.avatar {
+	border-radius: 5px;
+}
+.comment-reply-link {
+	color: rgb(200, 15, 15) !important;
+}
+.comment-reply-link:hover {
+	color: rgb(255, 255, 255) !important;
+}
+.comments-area ul li a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+.comments-area ul li a:hover {
+	color: rgb(235, 235, 235);
+}
+.no-comments {
+
+}
+.comment-respond h3 {
+	text-align: center;
+	color: rgb(125,125,200);
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000;
+	
+}
+.comment-form-comment {
+	
+}
+
+.comment-form {
+	margin-left: 2.5%;
+}
+.comment-form a {
+	text-decoration: none;
+	color: rgb(230, 230, 230);
+}
+.comment-form a:hover {
+	color: rgb(200, 200, 200);
+}
+.comment-form p {
+	color: rgb(230, 230, 230);
+}
+.comment-form input[type=text] {
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.5);
+	border: 0;
+}
+.comment-form input[type=text]:hover {
+	background-color: rgba(255,255,255,0.8);
+}
+.comment-form input[type=email] {
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.5);
+	border: 0;
+}
+.comment-form input[type=email]:hover {
+	background-color: rgba(255,255,255,0.8);
+}
+.comment-form input[type=url] {
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.5);
+	border: 0;
+}
+.comment-form input[type=url]:hover {
+	background-color: rgba(255,255,255,0.8);
+}
+.comment-form input[type=submit] {
+	padding: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 5px;
+	background-color: rgb(200, 200, 200);
+	border: 0;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 5%;
+	margin-left: 5%;
+}
+.comment-form input[type=submit]:hover {
+	color: rgb(200, 200, 200);
+	background-color: #000;
+}
+#comment {
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.5);
+	border: 0;
+}
+#comment:hover {
+	background-color: rgba(255,255,255,0.8);
+}
+
+/* header.php */
+.screen-reader-text {
+	visibility: hidden;
+	display: none;
+}
+.site-header {
+	background-color: rgba(200,15,15,0.80);
+	border-radius: 5px;
+	/*box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px 5px;*/
+}
+.site-title {
+	color: rgb(125,125,200);
+	font-style: italic;
+	font-weight: bold;
+	font-size: 250%;
+	margin-left: 5%;
+	text-shadow: 2px 2px 2px #000;
+}
+.main-navigation div {
+	
+}
+.main-navigation div ul {
+	list-style-type: none;
+	margin: 0;
+	margin-bottom: 2%;
+	padding: 0;
+	overflow: hidden;
+}
+.main-navigation div ul li {
+	float: left;
+	margin-left: 2%;
+	margin-bottom: 1%;
+	padding: 1%;
+	width: 10%;
+	background-color: rgb(125,125,200);
+	text-align: center;
+	
+}
+.main-navigation div ul li:hover {
+	background-color: rgb(200, 200, 200);
+	box-shadow: inset rgba(0, 0, 0, 0.75) 10px 10px 5px 0px;
+}
+.main-navigation div ul li a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 110%;
+	color: rgba(200,15,15,1);
+	text-shadow: 1px 1px 1px #000;
+}
+.main-navigation div ul li a:hover {
+	color: rgb(125,125,200);
+}
+.site-content {
+
+}
+
+/* footer */
+.site-footer {
+	background-color: rgba(200,15,15,0.85);
+	border-radius: 5px;
+	position: relative;
+    margin-top: -100px; /* altAlan yuksekliginin eksi degeri */
+    height: 100px;
+    clear:both;
+	text-align: center;
+}
+/* search.php */
+.page-header {
+	background-color: rgba(200,15,15,0.75);
+	box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px 0px;
+	border-radius: 5px;
+}
+.page-header h1 {
+	padding: 2%;
+	color: rgb(125,125,200);
+	text-shadow: 2px 2px 2px #000;
+}
+/* sidebar.php */
+.widget-area {
+	width: 25%;
+	float: right;
+	/*background-color: rgba(15,200,15,0.75);*/
+	background-color: rgba(200,15,15,0.80);
+	padding: 1.25%;
+	border-radius: 5px;
+	margin-bottom: 2%;
+	margin-right: 2%;
+}
+
+/* widget */
+.widget {
+	border-radius: 5px;
+	margin: 5%;
+	box-shadow: rgba(0, 0, 0, 0.75) 10px 10px 5px 0px;
+}
+.widget ul {
+	
+}
+.widget ul li {
+	
+}
+.widget ul li a {
+	text-decoration: none;
+	color: rgb(230, 230, 230);
+}
+.widget ul li a:hover {
+	color: rgb(200, 200, 200);
+}
+.widget-title {
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+	color: rgb(125,125,200);
+}
+/* search */
+.widget_search {
+	padding: 2%;
+}
+.search-form {
+	
+}
+.screen-reader-text {
+	
+}
+.search-field {
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.5);
+	border: 0;
+}
+.search-field:hover {
+	background-color: rgba(255,255,255,0.8);
+}
+.search-submit {
+	padding: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	border-radius: 5px;
+	background-color: rgb(200, 200, 200);
+	border: 0;
+	color: #000;
+	font-weight: bold;
+}
+.search-submit:hover {
+	color: rgb(200, 200, 200);
+	background-color: #000;
+}
+
+/* entries */
+.widget_recent_entries {
+	
+}
+
+.widget_recent_entries ul {
+	
+}
+
+.widget_recent_entries ul li {
+	
+}
+
+.widget_recent_entries ul li a {
+	
+}
+
+/* comments */
+.widget_recent_comments {
+	
+}
+#recentcomments {
+	
+}
+
+.recentcomments {
+	color: rgb(230, 230, 230);
+}
+.recentcomments a {
+	
+}
+.comment-author-link {
+	
+}
+.url {
+	text-decoration: none;
+}
+
+/* archive */
+.widget_archive {
+	
+}
+.widget_archive ul {
+	
+}
+.widget_archive ul li {
+	
+}
+.widget_archive ul li a {
+	text-decoration: none;
+}
+
+/* categories */
+.widget_categories {
+}
+.widget_categories ul {
+	
+}
+.cat-item {
+	
+}
+.cat-item a {
+	
+}
+
+/* meta */
+.widget_meta {
+	
+}
+.widget_meta ul {
+	
+}
+.widget_meta ul li {
+	
+}
+.widget_meta ul li a {
+	
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://localhost/wordpress/wp-includes/css/dist/block-library/style.min.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='untheme-style-css'  href='http://localhost/wordpress/wp-content/themes/untheme-master/style.css?ver=5.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='untheme-custom-style-css'  href='http://localhost/wordpress/wp-content/themes/untheme-master/assets/css/style.css?ver=5.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://localhost/wordpress/wp-content/themes/untheme-master/assets/js/scripts.js?ver=5.4.2'></script>
+<link rel='https://api.w.org/' href='http://localhost/wordpress/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/wordpress/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/wordpress/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.4.2" />
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style></head>
+
+<body class="home blog">
+	
+<a class="screen-reader-text" href="#content">Skip to content</a>
+
+<header class="site-header">
+	<h1 class="site-title">lovelytema</h1>
+
+	<nav class="main-navigation">
+		<div id="primary-menu" class="menu"><ul>
+<li class="page_item page-item-34"><a href="http://localhost/wordpress/dasdfj/">dasdfj</a></li>
+<li class="page_item page-item-2"><a href="http://localhost/wordpress/ornek-sayfa/">Örnek sayfa</a></li>
+</ul></div>
+	</nav>
+</header>
+
+<div id="content" class="site-content">
+	
+
+<main id="main" class="site-main" role="main">
+
+		<div class="entry kis">
+		<h1>
+			<a href="http://localhost/wordpress/2020/07/24/nbgvfyhujgn/">
+				nbgvfyhujgn			</a>
+		</h1>
+		<p>
+			
+<p>hgc ftrydcxghttrcednbcghfsxdgfcvdsxcthg</p>
+
+
+
+<p>ghcdcfghbmfvjhmngbk</p>
+
+
+
+<p>jhkfgythgbcv  cythgnbfvhgb cvgfbv xc ghbn vbjnm</p>
+		</p>
+		<a class="comment-reply-link" style="text-decoration: none;" href="http://localhost/wordpress/2020/07/24/nbgvfyhujgn/">more</a>
+	</div>
+		<div class="entry kis">
+		<h1>
+			<a href="http://localhost/wordpress/2020/07/24/sfghsxgbv/">
+				sfghsxgbv			</a>
+		</h1>
+		<p>
+			
+<p><strong>Lorem Ipsum</strong>, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500&#8217;lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960&#8217;larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.<strong>Lorem Ipsum</strong>, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500&#8217;lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960&#8217;larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.<strong>Lorem Ipsum</strong>, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500&#8217;lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960&#8217;larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.<strong>Lorem Ipsum</strong>, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500&#8217;lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960&#8217;larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.<strong>Lorem Ipsum</strong>, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500&#8217;lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960&#8217;larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.<strong>Lorem Ipsum</strong>, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500&#8217;lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960&#8217;larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.<strong>Lorem Ipsum</strong>, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500&#8217;lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960&#8217;larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.<strong>Lorem Ipsum</strong>, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500&#8217;lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960&#8217;larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.<strong>Lorem Ipsum</strong>, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500&#8217;lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960&#8217;larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.<strong>Lorem Ipsum</strong>, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500&#8217;lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960&#8217;larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.<strong>Lorem Ipsum</strong>, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500&#8217;lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960&#8217;larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.</p>
+		</p>
+		<a class="comment-reply-link" style="text-decoration: none;" href="http://localhost/wordpress/2020/07/24/sfghsxgbv/">more</a>
+	</div>
+		<div class="entry kis">
+		<h1>
+			<a href="http://localhost/wordpress/2020/07/24/jkzdfgshaz/">
+				jkzdfgshaz			</a>
+		</h1>
+		<p>
+			
+<p><strong>Lorem Ipsum</strong>, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500&#8217;lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960&#8217;larda Lorem Ipsum pasajları da içeren Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile popüler olmuştur.</p>
+		</p>
+		<a class="comment-reply-link" style="text-decoration: none;" href="http://localhost/wordpress/2020/07/24/jkzdfgshaz/">more</a>
+	</div>
+		<div class="entry kis">
+		<h1>
+			<a href="http://localhost/wordpress/2020/07/23/merhaba-dunya/">
+				Merhaba dünya!			</a>
+		</h1>
+		<p>
+			
+<p>WordPress&#8217;e hoş geldiniz. Bu sizin ilk yazınız. Bu yazıyı düzenleyin ya da silin. Sonra yazmaya başlayın!</p>
+		</p>
+		<a class="comment-reply-link" style="text-decoration: none;" href="http://localhost/wordpress/2020/07/23/merhaba-dunya/">more</a>
+	</div>
+	</main>
+
+<aside class="widget-area">
+	<section id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://localhost/wordpress/">
+				<label>
+					<span class="screen-reader-text">Arama:</span>
+					<input type="search" class="search-field" placeholder="Ara &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Ara" />
+			</form></section>		<section id="recent-posts-2" class="widget widget_recent_entries">		<h2 class="widget-title">Son Yazılar</h2>		<ul>
+											<li>
+					<a href="http://localhost/wordpress/2020/07/24/nbgvfyhujgn/">nbgvfyhujgn</a>
+									</li>
+											<li>
+					<a href="http://localhost/wordpress/2020/07/24/sfghsxgbv/">sfghsxgbv</a>
+									</li>
+											<li>
+					<a href="http://localhost/wordpress/2020/07/24/jkzdfgshaz/">jkzdfgshaz</a>
+									</li>
+											<li>
+					<a href="http://localhost/wordpress/2020/07/23/merhaba-dunya/">Merhaba dünya!</a>
+									</li>
+					</ul>
+		</section><section id="recent-comments-2" class="widget widget_recent_comments"><h2 class="widget-title">Son Yorumlar</h2><ul id="recentcomments"><li class="recentcomments"><a href="http://localhost/wordpress/2020/07/24/nbgvfyhujgn/#comment-5">nbgvfyhujgn</a> için <span class="comment-author-link"><a href='http://localhost/wordpress' rel='external nofollow ugc' class='url'>wordpress</a></span></li><li class="recentcomments"><a href="http://localhost/wordpress/2020/07/24/nbgvfyhujgn/#comment-4">nbgvfyhujgn</a> için <span class="comment-author-link"><a href='http://localhost/wordpress' rel='external nofollow ugc' class='url'>wordpress</a></span></li><li class="recentcomments"><a href="http://localhost/wordpress/2020/07/24/nbgvfyhujgn/#comment-3">nbgvfyhujgn</a> için <span class="comment-author-link"><a href='http://localhost/wordpress' rel='external nofollow ugc' class='url'>wordpress</a></span></li><li class="recentcomments"><a href="http://localhost/wordpress/2020/07/23/merhaba-dunya/#comment-1">Merhaba dünya!</a> için <span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow ugc' class='url'>Bir WordPress yorumcusu</a></span></li></ul></section><section id="archives-2" class="widget widget_archive"><h2 class="widget-title">Arşivler</h2>		<ul>
+				<li><a href='http://localhost/wordpress/2020/07/'>Temmuz 2020</a></li>
+		</ul>
+			</section><section id="categories-2" class="widget widget_categories"><h2 class="widget-title">Kategoriler</h2>		<ul>
+				<li class="cat-item cat-item-1"><a href="http://localhost/wordpress/category/genel/">Genel</a>
+</li>
+		</ul>
+			</section></aside>
+</div>
+
+<footer class="site-footer">Designed by Emir Öztürk</footer>
+<script type='text/javascript' src='http://localhost/wordpress/wp-includes/js/wp-embed.min.js?ver=5.4.2'></script>
+
+</body>
+</html>
